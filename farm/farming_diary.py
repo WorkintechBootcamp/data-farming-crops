@@ -19,8 +19,10 @@ corn.water()
 print(f"The corn crop produced {corn.grains} grains")
 
 # 4. Print "The corn crop is ripe" or "The corn crop is not ripe"
-corn.ripe()
-print(corn)
+if corn.ripe():
+    print("The corn crop is ripe")
+else:
+    print("The corn crop is not ripe")
 
 print("\n\n📝 Day Two: Rice")
 
