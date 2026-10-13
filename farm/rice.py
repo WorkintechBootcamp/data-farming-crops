@@ -1,5 +1,13 @@
 
 class Rice():
-    # YOUR CODE HERE
-    pass
+    def __init__(self):
+        self.grains = 0
 
+    def water(self):
+        self.grains += 5
+
+    def transplant(self):
+        self.grains += 10
+
+    def ripe(self):
+        return self.grains >= 15
